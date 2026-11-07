@@ -1,4 +1,5 @@
 import { Swords } from 'lucide-react';
+import { GameMap } from './components/GameMap';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
 
       <section className="flex text-white">
         <aside className="w-xl">LISTA DE MISSÕES</aside>
-        <div className="w-full">MAPA DO JOGO</div>
+        <div className="w-full">
+          <GameMap />
+        </div>
       </section>
 
     </main>
