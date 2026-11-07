@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
+
+@theme {
+  --font-title: 'Cinzel', serif;
+
+  --color-wood-950: #1f130b;
+  --color-wood-900: #301c0f;
+  --color-wood-700: #472711;
+
+  --color-paper-100: #f3e6c8;
+  --color-paper-200: #ccc0a3;
+  --color-paper-300: #b3a88f;
+
+}
